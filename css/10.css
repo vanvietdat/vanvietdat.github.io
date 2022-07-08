@@ -140,6 +140,5 @@ table th {
 	flex-wrap: wrap;}
 	.course_item {
 	flex: 100%;
-	float: left;
 	text-align: center;}
 }
