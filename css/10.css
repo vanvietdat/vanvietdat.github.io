@@ -1,10 +1,37 @@
-
-#myresume {
-	background-color: #3bf550;
-	text-align: center;
-	padding: 40px 80px 40px 80px;
-	margin: 0;
+.lefthead {
+	flex: 90%;
+	background-color: white;
+	padding: 10px 10px;
 }
+.logo{
+	width :40%;
+	padding: 0px 0px 0px 450px;
+}
+
+.righthead {
+	flex: 10%;
+	background-color: white;
+	padding: 100px 0px 0px 0px;
+	}
+.opentime{
+	font-size: small;
+
+}
+
+
+
+#flexhead {
+	display: flex;
+	flex-wrap: nowrap;	
+}
+
+
+/*#myresume {
+	background-color: white;
+	text-align: center;
+	padding: 0px 0px 0px 0px;
+	margin: 0;
+} */
 
 nav {
 	background-color: #a9e8b2;
@@ -59,32 +86,7 @@ footer a {
 
 }
 
-table {
-	border-style: solid;
-}
 
-/* styling the table */
-table { 
-  border-collapse: collapse;
-  width: 100%;
-}
-
-table td, table th {
-  border: 1px solid #ddd;
-  padding: 8px;
-}
-
-table tr:nth-child(even){background-color: #f2f2f2;}
-
-table tr:hover {background-color: #ddd;}
-
-table th {
-  padding-top: 12px;
-  padding-bottom: 12px;
-  text-align: left;
-  background-color: #04AA6D;
-  color: white;
-}
 
 .course_item {
 	/*width: 33%;
